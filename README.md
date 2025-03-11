@@ -20,3 +20,15 @@ O algoritmo MaxMin Select utiliza a técnica de divisão e conquista para encont
 1. Clone este repositório:
    ```bash
    git clone https://github.com/GustavoMBarbosa/Trabalho_individual_2_FPAA.git
+2. Acesse o diretório do projeto:
+   ```bash
+   cd maxmin-select
+   ```
+3. Execute o script:
+   ```bash
+   python main.py
+## Relatório Técnico
+
+### Complexidade Ciclomática
+
+### Complexidade Assuntótica
