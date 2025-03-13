@@ -32,4 +32,4 @@ O algoritmo MaxMin Select utiliza a técnica de divisão e conquista para encont
 
 ### Complexidade Ciclomática
 
-### Complexidade Assuntótica
+### Complexidade Assintótica
