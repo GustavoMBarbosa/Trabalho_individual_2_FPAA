@@ -27,6 +27,16 @@ O algoritmo MaxMin Select utiliza a técnica de divisão e conquista para encont
 3. Execute o script:
    ```bash
    python main.py
+   ```
+   4. Insira os números separados por espaço quando solicitado e visualize o maior e o menor valor.
+
+### Exemplo de Execução
+
+   ```bash
+   Digite os números separados por espaço: 3 15 7 31 11 4 9 1 24 2 8 5 6 12 17 13
+   Maior valor: 31
+   Menor valor: 1
+   ```
 ## Relatório Técnico
 
 ### Complexidade Ciclomática
