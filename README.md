@@ -49,7 +49,19 @@ Para cada entrada de tamanho n:
 3. Realiza apenas 2 comparações para combinar os resultados.
 
 A relação de recorrência é:
+
 T(n)  = 2T(n/2) + O(1)
+
+Com base no algoritmo:
+
+- a = 2 (duas chamadas recursivas).
+- b = 2 (o array é dividido em duas partes).
+- f(n) = O(1) (operações de comparação e retorno).
+
+1. Logb(a): Log2(2) = 1.
+2. Comparando f(n) = O(1) com n^log2(2) = n^1:
+- f(n) ∈ O(n^p) com p = 1.
+- T(n) = O(n).
 
 ## Diagrama de Fluxo
 ![Diagrama de Fluxo](assets/Diagrama_de_Fluxo_de_Controle.png)
