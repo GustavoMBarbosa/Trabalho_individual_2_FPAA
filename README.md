@@ -50,3 +50,6 @@ Para cada entrada de tamanho n:
 
 A relação de recorrência é:
 T(n)  = 2T(n/2) + O(1)
+
+## Diagrama de Fluxo
+![Diagrama de Fluxo](assets/Diagrama de Fluxo de Controle.png)
