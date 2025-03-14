@@ -52,4 +52,4 @@ A relação de recorrência é:
 T(n)  = 2T(n/2) + O(1)
 
 ## Diagrama de Fluxo
-![Diagrama de Fluxo](assets/"Diagrama_de_Fluxo_de_Controle.png")
+![Diagrama de Fluxo](assets/Diagrama_de_Fluxo_de_Controle.png)
