@@ -41,11 +41,12 @@ O algoritmo MaxMin Select utiliza a técnica de divisão e conquista para encont
 ### Complexidade Assintótica
 
 Para cada entrada de tamanho n:
-1 O algoritmo divide o array em duas partes de tamanho n/2.
 
-2 Realiza duas chamadas recursivas.
+1. O algoritmo divide o array em duas partes de tamanho n/2.
 
-3 Realiza apenas 2 comparações para combinar os resultados.
+2. Realiza duas chamadas recursivas.
+
+3. Realiza apenas 2 comparações para combinar os resultados.
 
 A relação de recorrência é:
 T(n)  = 2T(n/2) + O(1)
