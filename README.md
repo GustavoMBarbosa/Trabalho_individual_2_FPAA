@@ -31,5 +31,18 @@ O algoritmo MaxMin Select utiliza a técnica de divisão e conquista para encont
 ## Relatório Técnico
 
 ### Complexidade Ciclomática
+- Número de nós (N): total de blocos de código (função principal e recursões).
+- Número de arestas (E): conexões entre os blocos de código.
+- Fórmula: M = E - N + 2P (onde P = 1, pois temos um único componente conectado).
+- E (arestas) = 14, N (nós) = 13, P (componentes conexos) = 1
+- M = 14 - 13 + 2(1) / M = 3
+- A complexidade ciclomática da função é 3.
 
 ### Complexidade Assintótica
+
+Para cada entrada de tamanho n:
+1 - O algoritmo divide o array em duas partes de tamanho n/2.
+2 - Realiza duas chamadas recursivas.
+3 - Realiza apenas 2 comparações para combinar os resultados.
+A relação de recorrência é:
+T(n)  = 2T(n/2) + O(1)
